@@ -9,6 +9,7 @@ import store from "./redux/store";
 import { Provider } from "react-redux"; // react-redux fornisce i componenti e gli hooks necessari
 // per integrare uno store Redux all'interno di un'applicazione React
 
+//☑️1)Redux è stato integrato utilizzando il componente Provider fornito da react-redux. Questo permette ai componenti di accedere allo store Redux.
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // circondiamo App dal Provider, a cui abbiamo fornito la prop "store"
